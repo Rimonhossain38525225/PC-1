@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to create drop down menu</title>
+    <style>
+        body {
+            background-color: ;
+        }
+        
+
+        .navber {
+            background-color: coral;
+            padding: 1% 7%;
+            text-align: center;
+        }
+        .navber a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            cursor: pointer;
+
+        }
+        .dropdown-container {
+            display: inline;
+            position: relative;
+        }
+        .dropdown-content {
+            background-color: coral;
+            position: absolute;
+            top: 30px;
+            right: 15px;
+            text-align: left;
+            min-width: 100px;
+            /* visibility: hidden; */
+            display: none;
+            margin-top: 4px;
+            
+        }
+        .dropdown-content a {
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: darkgray;
+            transition: 0.7s;
+        }
+        .dropdown-container:hover .dropdown-content {
+            display: block;
+        }
+        .head {
+            width: 300px;
+            height: 4rem;
+            box-shadow: 0 4px 5px 0 rgba(52, 73, 94,0.6);
+            margin-bottom: 5px;
+
+        }
+        .head h1 {
+            color: white;
+            text-align: center;
+            text-shadow: 3px 4px 8px black;
+            padding-top: 9px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Dropdown manu</h1>
+    </div>
+
+    <div class="navber">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+
+        <div class="dropdown-container">
+            <a href="#">CONTRACT</a>
+            <div class="dropdown-content">
+                <a href="#">Facebook</a>
+                <a href="#">Email</a>
+            </div>
+        </div>
+
+        <a href="#">TUTORIAL</a>
+        <a href="#">MY PROFILE</a>
+    </div>
+</body>
+</html>

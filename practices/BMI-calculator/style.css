@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+.calculetor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    max-height: 600px;
+    width: 400px;
+    background: #BDBD94;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     */
+}
+
+.calculetor form label {
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+.calculetor form input {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: .5rem 0 1rem 0;
+    color: #787575;
+    outline: none;
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+
+#submit-btn {
+    background: #011c7d;
+    color: #fff;
+    cursor: pointer;
+}
+
+p {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-top: 3rem;
+    font-size: 3rem;
+    color: #fff;
+
+    
+}
+.error {
+    color: red;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.bmi {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.result {
+    margin-top: 1rem;
+}
+.messsage {
+    font-size: 15px;
+}
+
+
+@media (max-width:400px) {
+    h2 {
+        color: #fff;
+        margin-bottom: 3px;
+        margin-top: 0;
+    }
+    .calculetor {
+        width: 100%;
+        max-height: 796px;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0,0);
+    }
+    .calculetor form input {
+        width: 100%;
+    }
+    .messsage {
+        font-size: 12px;
+        text-align: start;
+        margin-top: 3px;
+        background-color: black;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    p {
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        margin-top: 3rem;
+        font-size: 2rem;
+        color: #fff;
+        
+    }
+    .calculetor form label {
+        margin-top: 4rem;
+        font-size: 1rem;
+        color: #0f4703;
+        font-family: sans-serif;
+    }
+}

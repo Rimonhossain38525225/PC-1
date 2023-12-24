@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ecommerce project">
+    <title> Rimon Hossain |E-commarce Project</title>
+    <!-- fontawesome cdn starts here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome cdn ends here -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #scrolling-content {
+            width: 100%;
+            height: 100px; /* Adjust the height as needed */
+            overflow: hidden;
+            position: relative;
+        }
+
+
+        #scrolling-content > * {
+            display: inline-block;
+            padding: 10px; /* Adjust the padding as needed */
+        }
+    </style>
+</head>
+<body>
+
+   <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <!-- navber starts here  -->
+    <nav id="menu" class="hidden">
+
+        <!-- upper nav starts here  -->
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="ragister.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img src="./images/profile.png" class="profile-icon" alt="profile photo">
+                </a>
+            </li>
+        </ul>  
+         <!-- upper nav ends here  --> 
+
+
+
+
+         <!-- lower nav starts here -->
+         <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="#" class="nav-link nav-brand">Rimon Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="card.html" class="nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    cart 2 products - $2323.2
+                </a>
+            </li>
+         </ul>      
+         <!-- lower nav ends here -->
+    </nav>
+    <!-- navber ends here  -->
+
+
+
+
+
+    
+
+    <!-- Header starts here  -->
+    <header class="header">
+       <div class="banner flex-space-around">
+        <div id="scrolling-content" class="banner-title"  >Content goes here</div> 
+            <div class="features flex-space-around">
+                <article class="feature flex-center">
+                    <i class="fa-solid fa-truck feature-icon "></i>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                </article>
+                <article class="feature flex-center">
+                    <i class="fa-brands fa-rocketchat feature-icon "></i>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                </article>
+                <article class="feature flex-center">
+                    <i class="fa-regular fa-credit-card feature-icon "></i>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                </article>
+            </div>
+       </div>
+    </header>
+     <!-- Header ends here  -->
+
+
+
+
+
+
+
+
+
+    <!-- main starts here  -->
+    <main class="flex-center">
+
+
+
+
+        <!-- sideber starts here  -->
+        <div class="sideber">
+            <!-- categories-section starts here -->
+            <section class="categories-section">
+                <h3 class="section-title">Categories</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        <label for="phone">
+                            <input type="checkbox" name="phone" id="phone" value="phone">
+                            Phone
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="tablets">
+                            <input type="checkbox" name="tablets" id="tablets" value="tablets">
+                            Tablets
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="telivisions">
+                            <input type="checkbox" name="telivisions" id="telivisions" value="telivisions">
+                            Telivisions
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="computers">
+                            <input type="checkbox" name="computers" id="computers" value="computers">
+                            Computers
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="headphones">
+                            <input type="checkbox" name="headphones" id="headphones" value="headphones">
+                            Headphones
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <!-- categories-section ends here -->
+
+
+
+            <!-- price section starts here  -->
+            <section class="price-section">
+                <h3 class="section-title">Price Range</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        <label for="price1">
+                            <input type="radio" name="price" id="price1" value="[0-20]">
+                            $0 - $20
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="price2">
+                            <input type="radio" name="price" id="price2" value="[21-50]">
+                            $21 - $50
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="price3">
+                            <input type="radio" name="price" id="price3" value="[51-100]">
+                            $51 - $100
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="price4">
+                            <input type="radio" name="price" id="price4" value="[101-500">
+                            $101 - $500
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="price5">
+                            <input type="radio" name="price" id="price5" value="[500+">
+                            $501+
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <!-- price section ends here  -->
+
+
+            <!-- shipping-section starts here  -->
+            <section class="shipping-section">
+                <h3 class="section-title">Shipping Options</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        <label for="free">
+                            <input type="radio" name="shipping" id="free" value="free">
+                            Free
+                        </label>
+                    </li>  
+                    <li class="list-item">
+                        <label for="paid">
+                            <input type="radio" name="shipping" id="paid" value="paid">
+                            Paid
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <!-- shipping-section ends here  -->
+        </div>
+        <!-- sideber ends here  -->
+
+
+
+
+
+
+
+        <!-- main content starts here  -->
+        <div class="main-content ">
+            <!-- actions section starts here -->
+           <div class="actions flex-space-around">
+            <div class="action-sort">
+                <label for="sort">Sort By:</label>
+                <select name="sort" id="sort">
+                    <option value="sold">Most sold first</option>
+                    <option value="rating">Most rated first</option>
+                    <option value="hello">Hello</option>
+                    <option value="rimon">Rimon Hossain</option>
+                    <option value="rdoy">Sabbir Hassan</option>
+                    <option value="likhon">Likhon Islam</option>
+                </select>
+            </div>
+            <div class="section-search">
+                <input type="text" placeholder="Search Products">
+                <button class="btn">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+           </div>
+            <!-- actions section ends here -->
+
+
+
+
+
+
+
+            <!-- products section starts here  -->
+            <div class="products">
+                <article class="product card">
+
+                    <div class="badge">
+                        <span>5 in stock</span>
+                        <hr class="hr-design">
+                        <span>3 sold</span>
+                    </div>
+
+                    <img class="product-image" src="./images/product1.jpg" alt="peoduct image1">
+                    <div class="product-body">
+                        <h3 class="product-name">Sony V-4 Headphone</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus cupiditate architecto asperiores deleniti... <a href="product.html" class="learn-more">Learn More</a>
+                        </p>
+                        <h4 class="product-price">$434.99</h4>
+                        <p class="product-rating">Rating: 4.2/5</p>
+                        <button class="btn product-button">ADD TO CARD</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+
+                    <div class="badge">
+                        <span>9 in stock</span>
+                        <hr class="hr-design">
+                        <span>20 sold</span>
+                    </div>
+
+                    <img class="product-image" src="./images/product2.avif" alt="peoduct image2">
+                    <div class="product-body">
+                        <h3 class="product-name">Beyerdynamic DT 990 PRO.</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus cupiditate architecto asperiores deleniti... <a href="product.html" class="learn-more">Learn More</a>
+                        </p>
+                        <h4 class="product-price">$999.99</h4>
+                        <p class="product-rating">Rating: 5/5</p>
+                        <button class="btn product-button">ADD TO CARD</button>
+                    </div>
+                </article>
+
+
+                <article class="product card">
+
+                    <div class="badge">
+                        <span>6 in stock</span>
+                        <hr class="hr-design">
+                        <span>19 sold</span>
+                    </div>
+
+                    <img class="product-image" src="./images/product3.jpg" alt="peoduct image3">
+                    <div class="product-body">
+                        <h3 class="product-name"> Audio-Technica ATH-M50x</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus cupiditate architecto asperiores deleniti... <a href="product.html" class="learn-more">Learn More</a>
+                        </p>
+                        <h4 class="product-price">$599.99</h4>
+                        <p class="product-rating">Rating: 3.5/5</p>
+                        <button class="btn product-button">ADD TO CARD</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+
+                    <div class="badge">
+                        <span>6 in stock</span>
+                        <hr class="hr-design">
+                        <span>19 sold</span>
+                    </div>
+
+                    <img class="product-image" src="./images/product4.jpg" alt="peoduct image3">
+                    <div class="product-body">
+                        <h3 class="product-name"> Basketball shoes</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus cupiditate architecto asperiores deleniti... <a href="product.html" class="learn-more">Learn More</a>
+                        </p>
+                        <h4 class="product-price">$199.99</h4>
+                        <p class="product-rating">Rating: 3.5/5</p>
+                        <button class="btn product-button">ADD TO CARD</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+
+                    <div class="badge">
+                        <span>6 in stock</span>
+                        <hr class="hr-design">
+                        <span>19 sold</span>
+                    </div>
+
+                    <img class="product-image" src="./images/product5.jpg" alt="peoduct image3">
+                    <div class="product-body">
+                        <h3 class="product-name"> Sneakers</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus cupiditate architecto asperiores deleniti... <a href="product.html" class="learn-more">Learn More</a>
+                        </p>
+                        <h4 class="product-price">$99.99</h4>
+                        <p class="product-rating">Rating: 3.9/5</p>
+                        <button class="btn product-button">ADD TO CARD</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+
+                    <div class="badge">
+                        <span>6 in stock</span>
+                        <hr class="hr-design">
+                        <span>19 sold</span>
+                    </div>
+
+                    <img class="product-image" src="./images/product6.jpg" alt="peoduct image3">
+                    <div class="product-body">
+                        <h3 class="product-name"> Thong sandals</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus cupiditate architecto asperiores deleniti... <a href="product.html" class="learn-more">Learn More</a>
+                        </p>
+                        <h4 class="product-price">$299.99</h4>
+                        <p class="product-rating">Rating: 3.8/5</p>
+                        <button class="btn product-button">ADD TO CARD</button>
+                    </div>
+                </article>
+            </div>
+            <!-- products section ends here  -->
+
+
+            <!-- pagination starts here  -->
+            <div class="pagination">
+                <button class="btn pagination-btn">
+                    <i class="fas fa-less-than"></i>
+                </button>
+                <button class="btn pagination-btn">2</button>
+                <button class="btn pagination-btn">3</button>
+                <button class="btn pagination-btn">4</button>
+                <button class="btn pagination-btn">5</button>
+                <button class="btn pagination-btn">6</button>
+                <button class="btn pagination-btn">7</button>
+                <button class="btn pagination-btn">8</button>
+                <button class="btn pagination-btn">9</button>
+                <button class="btn pagination-btn">10</button>
+                <button class="btn pagination-btn">...</button>
+                <button class="btn pagination-btn">50</button>
+                <button class="btn pagination-btn">
+                    <i class="fas fa-greater-than"></i>
+                </button>
+            </div>
+            <!-- pagination ends here  -->
+        </div>
+        <!-- main content ends here  -->
+    </main>
+    <!-- main ends here  -->
+
+
+
+
+
+
+
+
+
+
+    <!-- footer starts here  -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="email" name="subscribe" id="subscribe" class="footer-input" placeholder=" Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Rimon Express. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here  -->
+    <script>
+        function scrollContent() {
+        var scrollingElement = document.getElementById("scrolling-content");
+        var position = 0;
+        var speed = 3; // Adjust the speed as needed
+      
+        function move() {
+          position -= speed;
+          scrollingElement.style.transform = "translateX(" + position + "px)";
+      
+          // Reset the position if content has moved off-screen
+          if (position < -scrollingElement.offsetWidth) {
+            position = scrollingElement.offsetWidth;
+          }
+      
+          requestAnimationFrame(move);
+        }
+      
+        move();
+      }
+      
+      scrollContent();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

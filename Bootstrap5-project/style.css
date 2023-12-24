@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+.hr-style{
+    border: 8px dotted rgb(227, 28, 207);
+    border-bottom: none;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+@media (max-width: 576px){
+    .text-sm-center {
+        text-align: center!important;
+    }
+}
+.star{
+    width: 20px;
+    color: #fff;
+}
+.section-title{
+    margin-bottom: 0;
+}
+.navbar-brand img{
+    width: 103px;
+    border-radius: 100%;
+    height: auto;
+    /* border-top-left-radius: 2rem; */
+}
+
+
+/*==========================
+ header starts here  
+ =========================*/
+.navbar{
+    padding: 1% 5%;
+    background-color: rgba(0,0, 0, 0.3);
+}
+.navber-icon{
+    color: #fff;
+}
+.navbar-custom{
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 6px 10px;
+    transition: 0.4s;
+}
+.navbar-custom:hover{
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgba(90, 255, 19, 0.3);
+    transform: scale(1.1);
+    
+}
+/* .costom-bg-color{
+    background-color: rgba(53, 53, 61, 0.2);
+} */
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.my-ul{
+    flex-grow: 0;
+}
+
+header{
+    background-image: url("images/bannar.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 92vh;
+}
+.banner-container h1{
+    font-family: 'Handlee', cursive;
+    font-size: 4rem;
+}
+@media (max-width:600px) {
+    .banner-container h1{
+        font-size: 3rem;
+    }
+}
+/*==========================
+ header ends here  
+ =========================*/
+
+
+/*===================
+ main starts here 
+ ==================== */
+
+ /* features starts here  */
+#features{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.feature-column{
+    border: 2px solid #ff02c0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+    transition: 0.4s;
+}
+.feature-column:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background-color: #bb0aac;
+    color: #fff;
+    padding: 14px;
+}
+.features-img{
+    max-width: 90%;
+}
+/* features ends here  */
+
+/* about me starts here  */
+#about-me{
+    padding: 4% 10%;
+    background-color: #B71375;
+    color: #fff;
+}
+#tutoriul{
+    padding: 4% 10%;
+    background-color: #454244;
+    color: #fff;
+}
+
+.basic-des p{
+    margin-bottom: 5px;
+}
+/* about me ends here  */
+
+/* feedback starts here */
+#feedback{
+    padding: 5% 10%;
+    background-color: #460000;
+    color: #fff;
+}
+.custom-style-image{
+    width: 50%;
+    height: auto;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.carousel-indicators{
+    bottom: -10%;
+}
+/* feedback starts here */
+
+
+/* contact  starts here  */
+#contact{
+    padding: 3% 10%;
+    color: #fff;
+    background-color: #0b1c5a;
+}
+/* contact  ends here  */
+/*=================
+ main ends here 
+ =============== */
+
+/* foooter starts here  */
+footer{
+    padding: 1% 10%;
+    background-color: #696768;
+    color: #fff;
+}
+@media (min-width:600px){
+    .text-lg-right{
+        text-align: end !important;
+    }
+}
+@media (max-width:600px){
+    .navbar-custom{
+        background-color: rgba(18, 7, 7, 0.8);
+    
+    }
+}
+
+.footer-link-style{
+    margin: 2px 10px;
+}
+.footer-link-style:hover{
+    color: black !important;
+}
+
+/* foooter ends here  */

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap 5</title>
+    <!-- bootstrap 5  cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        header a {
+            color: #fff;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+            /* transition: 1s; */
+            font-size: 17px;
+        }
+
+        #demo {
+            width: 500px;
+            height: auto;
+        }
+
+        .my-auto {
+            margin-left: auto;
+        }
+
+        .main-container {
+            margin-top: 69px;
+        }
+
+        .wrap {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- main container starts here  -->
+    <div class="container p-2  text-cneter main-container">
+
+
+
+
+        <!-- Tutorial 12 : Navigation menu | Nav starts here fixed-top-->
+        <header class="">
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark ps-1 fixed-top">
+
+                <a href="#" class="navbar-brand">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGokobdwbYAR-PwB_W_RGucqN-abiIMW5GEYLdsfDG1w&s"
+                        alt="" width="59px">
+                </a>
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav my-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contruct me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About me </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">service </a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+        <!-- Tutorial 12 : Navigation menu | Nav ends here-->
+
+
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            <button class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            আমার ওয়েবসাইট এ আশার জন্য আপনাকে। .লুগুলুগু জানানো হলো
+        </div>
+
+
+        <!-- blockqute-section starts here -->
+        <div class="mydiv bg-light px-2">
+            <div class="title text-center pb-3">
+                <h1 class="">blockquote and abbreviations</h1>
+            </div>
+
+            <!-- row 1 blockqute-section starts here -->
+            <div class="row">
+                <div class="blockqute-section rew col-lg-4 text-center">
+                    <blockquote class="blockquote">
+                        <i class="fas fa-user-circle fa-2x p-2 text-center"></i>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            natus nam commodi omnis totam adipisci fuga nisi quia assumenda
+                            mollitia! we can learn in this website
+                            <abbr title="javascript">js</abbr>
+                        </p>
+
+                        <footer class="blockquote-footer">
+                            Rimon hossain <cite>facebook</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="blockqute-section rew col-lg-4 text-center">
+                    <blockquote class="blockquote">
+                        <i class="fas fa-user-circle fa-2x p-2 text-center"></i>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            natus nam commodi omnis totam adipisci fuga nisi quia assumenda
+                            mollitia! we can learn in this website
+                            <abbr title="javascript">js</abbr>
+                        </p>
+
+                        <footer class="blockquote-footer">
+                            Rimon hossain <cite>facebook</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="blockqute-section rew col-lg-4 text-center">
+                    <blockquote class="blockquote">
+                        <i class="fas fa-user-circle fa-2x p-2 text-center"></i>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            natus nam commodi omnis totam adipisci fuga nisi quia assumenda
+                            mollitia! we can learn in this website
+                            <abbr title="javascript">js</abbr>
+                        </p>
+
+                        <footer class="blockquote-footer">
+                            Rimon hossain <cite>facebook</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <!-- row 1 blockqute-section ends here -->
+        </div>
+        <!-- blockqute-section ends here -->
+
+
+        <!-- 1. bootstrap card starts here-->
+        <h2 class="text-center text-white p-3">bootstrap card</h2>
+        <div class="row">
+            <div class="col-lg-3 g-1">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://scontent.fdac157-1.fna.fbcdn.net/v/t39.30808-6/343806500_956000672199049_1747879612155199667_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE8FOYikROXcmK1sXKoTHQttmSK3cbQPTu2ZIrdxtA9O61iqzPGwewq41NFjMUafY-kxj62S-YQC7dplEKyhvcm&_nc_ohc=taB72jeapSoAX8O6mLp&_nc_ht=scontent.fdac157-1.fna&oh=00_AfAC2OUMfTjoD_wXWM_Ru2IRxK0iT-hH6ZIjlpjrA_kHYQ&oe=64793429"
+                        alt="">
+                    <div class="card-body">
+                        <h1 class="card-title">
+                            Programing language
+                        </h1>
+                        <p class="card-text">HTML <br>CSS <br>javascript</p>
+                        <a class="card-link stretched-link" target="_blank"
+                            href="https://www.facebook.com/rimon.hossen.5458">Visit my
+                            profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 g-1">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://scontent.fdac157-1.fna.fbcdn.net/v/t39.30808-6/343806500_956000672199049_1747879612155199667_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE8FOYikROXcmK1sXKoTHQttmSK3cbQPTu2ZIrdxtA9O61iqzPGwewq41NFjMUafY-kxj62S-YQC7dplEKyhvcm&_nc_ohc=taB72jeapSoAX8O6mLp&_nc_ht=scontent.fdac157-1.fna&oh=00_AfAC2OUMfTjoD_wXWM_Ru2IRxK0iT-hH6ZIjlpjrA_kHYQ&oe=64793429"
+                        alt="">
+                    <div class="card-body">
+                        <h1 class="card-title">
+                            Programing language
+                        </h1>
+                        <p class="card-text">HTML <br>CSS <br>javascript</p>
+                        <a class="card-link stretched-link" target="_blank"
+                            href="https://www.facebook.com/rimon.hossen.5458">Visit my
+                            profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 g-1">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://scontent.fdac157-1.fna.fbcdn.net/v/t39.30808-6/343806500_956000672199049_1747879612155199667_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE8FOYikROXcmK1sXKoTHQttmSK3cbQPTu2ZIrdxtA9O61iqzPGwewq41NFjMUafY-kxj62S-YQC7dplEKyhvcm&_nc_ohc=taB72jeapSoAX8O6mLp&_nc_ht=scontent.fdac157-1.fna&oh=00_AfAC2OUMfTjoD_wXWM_Ru2IRxK0iT-hH6ZIjlpjrA_kHYQ&oe=64793429"
+                        alt="">
+                    <div class="card-body">
+                        <h1 class="card-title">
+                            Programing language
+                        </h1>
+                        <p class="card-text">HTML <br>CSS <br>javascript</p>
+                        <a class="card-link stretched-link" target="_blank"
+                            href="https://www.facebook.com/rimon.hossen.5458">Visit my
+                            profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 g-1">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://scontent.fdac157-1.fna.fbcdn.net/v/t39.30808-6/343806500_956000672199049_1747879612155199667_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE8FOYikROXcmK1sXKoTHQttmSK3cbQPTu2ZIrdxtA9O61iqzPGwewq41NFjMUafY-kxj62S-YQC7dplEKyhvcm&_nc_ohc=taB72jeapSoAX8O6mLp&_nc_ht=scontent.fdac157-1.fna&oh=00_AfAC2OUMfTjoD_wXWM_Ru2IRxK0iT-hH6ZIjlpjrA_kHYQ&oe=64793429"
+                        alt="">
+                    <div class="card-body">
+                        <h1 class="card-title">
+                            Programing language
+                        </h1>
+                        <p class="card-text">HTML <br>CSS <br>javascript</p>
+                        <a class="card-link stretched-link" target="_blank"
+                            href="https://www.facebook.com/rimon.hossen.5458">Visit my
+                            profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 1. bootstrap card ends here-->
+
+        <!-- media and media-body starts here -->
+        <h2 class="text-center text-white p-3">media and media-body</h2>
+        <div class="media border p-2 wrap">
+            <img src="./color.png" style="width:60px">
+            <div class="media-body">
+                <h4>Left-aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <!-- media and media-body ends here -->
+
+
+
+        <!-- : button, button group, list group starts here-->
+        <h2 class="text-center text-white p-3">button, button group, list group</h2>
+        <div class="student-list">
+            <ul class="list-group text-center ">
+                <li class="list-group-item bg-primary text-white mb-1">Rimon hossain</li>
+                <li class="list-group-item bg-primary text-white mb-1">Ridoy hassan</li>
+                <li class="list-group-item bg-primary text-white mb-1">Lihon islam</li>
+            </ul>
+        </div>
+        <!-- : button, button group, list group ends here-->
+
+
+        <!-- Toggleable dynamic tab and pill starts here -->
+        <div class="toggleable">
+            <div class="rimon">
+                <ul class="nav nav-pills">
+                    <li class="nav-item "><a data-bs-toggle="pill" class="nav-link active" href="#edu">Education</a>
+                    </li>
+                    <li class="nav-item"><a data-bs-toggle="pill" class="nav-link" href="#skill">skills</a></li>
+                    <li class="nav-item"><a data-bs-toggle="pill" class="nav-link" href="#hobby">Hobby</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content ">
+                <div id="edu" class="tab-pane active">
+                    <p>Rimon hossain</p>
+                </div>
+                <div id="skill" class="tab-pane fade">
+                    <p>Likhon islam</p>
+                </div>
+                <div id="hobby" class="tab-pane fade">
+                    <p>Ridoy hasan</p>
+                </div>
+            </div>
+        </div>
+        <!-- Toggleable dynamic tab and pill ends here -->
+
+
+
+
+        <!-- collapse and pagination starts here-->
+        <h1 class="text-center text-white p-3">collapse and pagination</h1>
+        <footer class="bg-dark p-3">
+            <div class="about-me">
+                <h2 class="text-white text-center">about me</h2>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi expedita
+                    magnam,
+                    consectetur
+                    dignissimos fuga eaque eius laboriosam aliquam rerum porro ad atque asperiores odit deserunt.
+                    Corporis, omnis est. Commodi, totam ad! Neque minima ullam amet doloribus nesciunt eveniet error
+                    facilis!</p>
+                <a href="#demo" data-bs-toggle="collapse">Learn more</a>
+                <div id="demo" class="collapse">
+                    <p class="text-white bg-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+                        incidunt
+                        aperiam cum dicta
+                        explicabo itaque cumque quos? Illo, ducimus aperiam!</p>
+                </div>
+            </div>
+
+            <ul class="pagination py-2 justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </footer>
+        <!-- collapse and pagination ends here-->
+
+
+        <!-- table starts here  -->
+        <table class="table table-bordered table-hover text-center table-striped">
+            <caption>
+                My Education
+            </caption>
+            <thead style="background-color: darkseagreen">
+                <tr>
+                    <th scope="col">Qualification</th>
+                    <th scope="col">Institution</th>
+                    <th scope="col">Passing Year</th>
+                    <th scope="col">Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <th scope="row">SSC</th>
+                    <td>SingerKatch High School and College</td>
+                    <td>2006</td>
+                    <td rowspan="2">3.44 / 5.00</td>
+                </tr>
+                <tr class="table-secondary">
+                    <th scope="row">HSC</td>
+                    <td>SingerKatch High School and College</td>
+                    <td>2008</td>
+                </tr>
+                <tr>
+                    <th scope="row">BSc in CSE</td>
+                    <td>Leading University</td>
+                    <td>2017</td>
+                    <td>3.92 / 4.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- table ends here  -->
+
+        <!-- form starts here  -->
+        <div id="contact-me" class="p-3">
+            <h2 class="text-center">Contact</h2>
+            <form action="">
+
+                <!-- name here  -->
+                <div class="mb-3">
+                    <label for="fullname" class="form-label">fullname: </label>
+                    <input type="text" id="fullname" name="fullname" class="form-control">
+                </div>
+
+                <!-- email here  -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">email: </label>
+                    <input type="email" id="email" name="email" class="form-control">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+
+                <!-- password here  -->
+                <div class="mb-3">
+                    <label for="password" class="form-label">password: </label>
+                    <input type="password" id="password" name="password" class="form-control">
+                    <div id="passwordHelp" class="form-text">Must be 8-20 characters long.</div>
+                </div>
+
+                <!-- color selector here  -->
+                <div class="mb-3">
+                    <label for="exampleColorInput" class="form-label">Color picker</label>
+                    <input type="color" class="form-control-color" id="exampleColorInput" value="#563d7c"
+                        title="Choose your color">
+                </div>
+
+                <!-- dropdown menu here  -->
+                <div class="mb-3">
+                    <select class="form-select" aria-label="department">
+                        <option selected>CSE</option>
+                        <option value="1">EEE</option>
+                        <option value="2">LLB</option>
+                    </select>
+                </div>
+
+                <!-- checkbox here  -->
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="terms">
+                        <label class="form-check-label" for="terms">
+                            Accept terms and conditions
+                        </label>
+                    </div>
+                </div>
+
+
+                <!-- radio button  -->
+                <div class="mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="male" name="gender">
+                        <label class="form-check-label" for="male">
+                            male
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="male" name="gender">
+                        <label class="form-check-label" for="female">
+                            female
+                        </label>
+                    </div>
+                </div>
+
+
+                <!-- form-floating labels example; placeholder is required  -->
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    <label for="emailInput">Email address</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Comments</label>
+                </div>
+
+                <!-- form grid example  -->
+                <div class="row mb-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+        <!-- form ends here  -->
+
+
+
+    </div>
+    <!-- main container ends here  -->
+
+
+
+    <p class="text-danger">
+        <span class="visually-hidden">Danger: </span>
+        This action is not reversible
+    </p>
+
+
+    </div>
+
+
+    <!-- bootstrap 5  javascript  link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

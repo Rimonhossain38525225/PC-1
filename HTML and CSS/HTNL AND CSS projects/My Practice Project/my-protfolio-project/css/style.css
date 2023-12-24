@@ -1,0 +1,518 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Mobile style */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+
+
+
+
+/* Navber design start */
+
+
+/* all device  */
+[class*=col-] {
+    float: left;
+    padding: 10px;
+}
+
+/* for mobile  */
+[class*=col-] {
+    width: 100%;
+}
+
+.navber {
+    /* background-color: #6D214F; */
+    background-image: url(../images/nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1% 5%;
+    text-align: center;
+    
+}
+
+/* div clear  */
+.navber::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.logo-image {
+    width: 80px;
+    border-radius: 78px;
+}
+
+.navber h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+
+.dotted-hr {
+    border: #fff 8px dotted;
+    border-bottom: none;
+    margin: 15px auto;
+    width: 70px;
+}
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+.about-me h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.navber-manu a {
+
+    background-color: rgb(166, 9, 30);
+    margin: 5px 0px;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+span {
+    color: red;
+}
+
+.navber-manu a:hover {
+    background-color: rgb(207, 126, 59);
+    transition: 0.5s;
+}
+
+.navber-manu {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+/* Navber design end */
+
+
+
+
+/* profile design start  */
+
+.profile {
+    padding: 100px 10px;
+    position: relative;
+    text-align: center;
+    background-image: url("../images/profileee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile .top-weather-icon {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    transition: transform 2s;
+    color: #fff;
+    /* transform: rotate(360deg); */
+
+}
+
+.profile .top-weather-icon img {
+    width: 93px;
+    border-radius: 20px;
+}
+
+.profile .bottom-weather-icon img {
+    width: 93px;
+    border-radius: 20px;
+}
+
+.profile .top-weather-icon:hover {
+    transform: rotate(360deg);
+
+}
+
+.profile .bottom-weather-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    transition: transform 2s;
+    color: #fff;
+    /* transform: rotate(360deg); */
+
+}
+
+.profile .bottom-weather-icon:hover {
+    transform: rotate(360deg);
+
+}
+
+
+
+.profile-desc h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.profile-desc p {
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+.profile::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* profile design end  */
+
+
+
+/* about me section design start */
+
+.about-me {
+    background-image: url("../images/image.png");
+    background-size: cover;
+    padding: 1% 7%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.about-me::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.aboutme-image img{
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 200px;
+}
+.about-me p {
+    text-align: center;
+}
+.about-me a {
+    font-size: 1.2rem;
+}
+.cv-button {
+    background-color: #f62f2f;
+    font-size: 1.4rem;
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 3px 5px black;
+}
+
+/* about me section design end */
+
+
+
+ /* Experience design  start  */
+
+.experience {
+    padding: 1% 5%;
+    background-image: url('../images/background.jpg');
+}
+.experience::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.experience .card {
+    background-color:rgba(109, 33, 79,0.5);
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.3s;
+    box-shadow: 0 4px 2px 2px rgb(255, 255, 255);
+}
+.experience .card:hover {
+    box-shadow: 0 4px 6px 6px rgb(255, 255, 255);
+}
+.card-icon {
+    text-align: center;
+}
+.card-icon img{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.card-title {
+    text-align: center;
+}
+.card-title h2 {
+    background-color: chocolate;
+    padding: 5px 0;
+    border-radius: 20px;
+}
+.skill-img {
+    background-color: #fff;
+}
+
+ /* Experience design  end  */
+
+
+/* SKIIL START */
+ .skils-container {
+        padding-right: 45px;
+ }
+ .skils-container li {
+    list-style: none;
+    font-weight: bolder;
+    font-size: 23px;
+    margin: 30px 10px;
+    text-transform: uppercase;
+    position: relative;
+ }
+
+    /* progress ber design start  */
+
+ .skils-container li::before {
+    content: '';
+    position: absolute;
+    background-color: darkgrey;
+    width: 100%;
+    left: 0;
+    height: 20px;
+    top: calc(100% + 5px);
+    border-radius: 25px;
+ }
+ .skils-container li::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(144, 130, 18);
+    width: 0;
+    left: 0;
+    height: 20px;
+    top: calc(100% + 5px);
+    border-radius: 25px;
+
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+ }
+ .skils-container li.html::after {
+    animation-name: html;
+ }
+ @keyframes html{
+    to {
+    width: 70%;
+    }
+ }
+ .skils-container li.css::after {
+    animation-name: css;
+ }
+ @keyframes css{
+    to {
+    width: 40%;
+    }
+ }
+ .skils-container li.javascript::after {
+    animation-name: javascript;
+ }
+ @keyframes javascript{
+    to {
+    width: 10%;
+    }
+ }
+
+    /* jagulo ekkhono shikha hoyni */
+ .skils-container li.bootstrap::after {
+    animation-name: bootstrap;
+ }
+ @keyframes bootstrap{
+    to {
+    width: 0%;
+    }
+ }
+ .skils-container li.git::after {
+    animation-name: git;
+ }
+ @keyframes git{
+    to {
+    width: 0%;
+    }
+ }
+ .skils-container li.github::after {
+    animation-name: github;
+ }
+ @keyframes github{
+    to {
+    width: 5%;
+    }
+ }
+  /* progress ber design end  */
+
+ /* SKIIL END */
+
+
+
+
+ /* achievement section start */
+
+h2 {
+    text-align: center;
+}
+.achievement-section {
+    padding: 1% 6%;
+    background-image: url(../images/contect.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.contact {
+    text-align: center;
+}
+.contact input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+    text-align: center;
+    
+}
+.contact button {
+    border: none;
+    border-radius: 6px;
+    background-color: darkblue;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px;
+    margin: 15px;
+    width: 112px;
+    
+}
+
+.contact-link {
+    text-align: center;
+}
+.media-buttons .btn {
+    border: none;
+    border-radius: 20px;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: #fff;
+}
+.media-buttons .btn:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+.achievement-section::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+  /* achievement section end */
+
+  
+ /* footer start  */
+ .footer {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+ }
+ 
+ .footer .footer-manu a {
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    margin: 5px 0;
+    display: block;
+    /* background-color: darkcyan; */
+    padding: 5px;
+    /* border-radius: 25px; */
+    
+ }
+ .footer .footer-manu a:hover {
+    color: gray;
+ }
+
+ .footer::after {
+    display: table;
+    content: '';
+    clear: both;
+ }
+  /* footer end  */

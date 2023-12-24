@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my website</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap 5  cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- main css link  -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+
+      <!-- header starts here  -->
+      <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><i  class="fas fa-bars navber-icon"></i></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+              <img
+                class="logo-img"
+                src="https://i0.wp.com/corevaluesconsulting.com/wp-content/uploads/2017/10/AdobeStock_63473477.jpeg?fit=1280%2C926&ssl=1"
+                alt="logo"
+              />
+            </a>
+
+            <div class="collapse  navbar-collapse my-ul" id="navbarNavDropdown">
+              <ul class="navbar-nav costom-bg-color ">
+                <li class="nav-item">
+                  <a class="nav-link navbar-custom text-center text-md-left" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-custom text-center text-md-left" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-custom text-center text-md-left" href="#contact">Contact Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-custom text-center text-md-left" href="#feedback">Feedback</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- banner section  -->
+        <section class="banner-section">
+            <div class="banner-container d-flex justify-content-center align-items-center">
+                <div class="banner-contents text-center ">
+                    <h1 class="text-white mb-5">Welcome my  Website !!</span> </h1>
+                    <h2 class="text-white bg-primary"><span>Creator <span class="love">&hearts; &hearts;</span> <span id="element"></span></span></h2>
+                    <button class="btn bg-primary text-white m-3 btn-lg" onclick="window.open('https://www.facebook.com/rimon.hossen.5458')" class="request-callback"><i class="fa-brands fa-facebook"></i> Facebook profile</button>
+                    <button class="btn bg-primary text-white m-3 btn-lg" onclick="window.open('https://github.com/Rimonhossain38525225')" class="request-callback"><i class="fa-brands fa-github"></i> Githube Profile</button>
+
+                </div>
+            </div>
+        </section>
+
+      </header>
+      <!-- header ends here  -->
+
+      <!-- main starts here  -->
+      <main>
+
+         <!-- feedback starts  -->
+         <section id="feedback">
+          <div class="section-title">
+            <h3 class="text-center">Feedback</h3>
+            <div class="hr-style"></div>
+        </div>
+
+          <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              
+              <div class="carousel-inner custom-height">
+                <div class="carousel-item active text-center">
+                  <h3>Rimon hossain</h3>
+                  <img src="images/rimon4.png" class="rounded-circle custom-style-image" alt="image1">
+                </div>
+                <div class="carousel-item text-center">
+                  <h3>Rimon hossain</h3>
+                  <img src="images/rimon4.png" class="rounded-circle custom-style-image" alt="image2">
+                </div>
+                <div class="carousel-item text-center">
+                  <h3>Rimon hossain</h3>
+                  <img src="images/rimon4.png" class="rounded-circle custom-style-image" alt="image3">
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+       </section>
+       <!-- feedback ends -->
+
+
+        <!-- features starts here  -->
+        <section id="features">
+          <div class="row">
+            <div class="col-lg-4 text-center d-block d-lg-flex">
+              <div class="feature-column">
+                <i class="fas fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
+                <h4 class="font-weight-bold">Think positive
+                </h4>
+                <p class="small"><img class="features-img" src="images/m2.jpg" alt="motivational photo"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 text-center d-block d-lg-flex">
+              <div class="feature-column">
+                <i class="fas fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
+                <h4 class="font-weight-bold">Think positive</h4>
+                <p class="small"><img class="features-img" src="images/m3.jpg" alt="motivational photo"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 text-center d-block d-lg-flex">
+              <div class="feature-column">
+                <i class="fas fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
+                <h4 class="font-weight-bold">Think positive</h4>
+                <p class="small"><img class="features-img" src="images/m1.jpg" alt="motivational photo"></p>
+              </div>
+            </div>
+          </div>
+        </section>
+         <!-- features starts here  -->
+
+         <!-- About Me starts here  -->
+         <section id="about-me">
+          <div class="section-title">
+            <h3 class="text-center">About Me</h3>
+            <div class="hr-style"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="basic-des">
+                <i class="far fa-user fa-2x rounded-circle icon-style"></i>
+                <h5 class="">personal info</h5>
+                <p>Name : Rimon hossain</p>
+                <p>Profession : Student of Computer Science and technology (KPI)</p>
+                <p>Current Address: kushtia college road</p>
+                <button class="btn bg-primary text-white">Download CV</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5">
+                <div class="achieve-desc">
+                  <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>    
+                  <h5 class="font-weight-bolder">Achievements</h5>
+                  <p>I am still healthy</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="skill-desc">
+                  <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                  <h5 class="font-weight-bolder" >Skills</h5>
+
+                  <table>
+                      <tr>
+                        <td>HTML</td>
+                        <td>
+                          <span class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>CSS</td>
+                        <td>
+                          <span class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <i class="far fa-star"></i>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>JS</td>
+                        <td>
+                          <span class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half"></i>
+                              <i class="far fa-star"></i>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>bootstrap 5</td>
+                        <td>
+                          <span class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                          </span>
+                        </td>
+                      </tr>
+                  </table>
+              </div>
+            </div>
+        </div>
+         </section>
+          <!-- About Me starts here  -->
+
+
+          <!-- tutoriul starts here  -->
+         <!-- <section id="tutoriul">
+          <div class="section-title">
+            <h3 class="text-center">tutoriul</h3>
+            <div class="hr-style"></div>
+          </div>
+
+          <div class="row text-center mb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="row text-center mb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="row text-center mb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                    <img class="card-img-top" src="http://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover.jpg" alt="">
+                    <div class="card-body text-center">
+                      <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         </section> -->
+         <!-- tutoriul ends here  -->
+
+
+         <!-- contact starts here  -->
+         <section id="contact">
+          <div class="section-title">
+            <h3 class="text-center">Contact Me</h3>
+            <div class="hr-style"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <form action="mailto:rimonhossen333@gmail.com" method="post" enctype="text/plain" class="was-validated">
+
+                <div class="form-group mb-3">
+                  <label for="fullname">Full Name :</label>
+                  <input type="text" class="form-control" name="fullname" required id="fullname">
+                  <div class="valid-feedback">Valid</div>
+                  <div class="invalid-feedback text-danger">Invalid fill your Name</div>
+                </div>
+
+                <div class="form-group mb-3">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" name="email" required id="email">
+                </div>
+
+                <div class="form-group mb-3">
+                  <label for="message">Message:</label>
+                  <textarea style="resize: none;" name="message" id="message" class="form-control" cols="30" rows="4"></textarea>
+                </div>
+
+
+                <div class="form-group mb-3 row">
+                  <div class="col-6">
+                    <input type="button"  class="btn bg-primary form-control text-white" value="submit">
+                  </div>
+                  <div class="col-6">
+                    <input type="reset" class="btn bg-primary form-control text-white" value="reset">
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+         <!-- contact ends here  -->
+      </main>
+      <!-- main ends here  -->
+      <footer>
+
+
+        <div class="row">
+          <div class="col-6  text-center">
+            <p class="smal  mb-0 mt-1">&copy; Copyright 
+              Rimon hossain</p>
+          </div>
+          <div class="col-6  text-center  text-lg-right">
+            <a href="#" class="text-white text-decoration-none footer-link-style">Home</a>
+            <a href=""><i class="fab fa-facebook text-white footer-link-style"></i></a>
+            <a href=""><i class="fab fa-instagram text-white footer-link-style"></i></a>
+            <a href=""><i class="fab fa-github text-white footer-link-style" ></i></a>
+            <a href=""><i class="fab fa-twitter text-white footer-link-style"></i></a>
+          </div>
+        </div>
+
+      </footer>
+    </div>
+
+    <!-- bootstrap 5  javascript  link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Rimon hossain','this is my first website HTML,CSS,and Bootstrap 5'],
+            typeSpeed: 100,
+        });
+    </script>
+  </body>
+</html>

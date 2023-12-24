@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ecommerce project">
+    <title>E-commarce Project</title>
+    <!-- fontawesome cdn starts here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome cdn ends here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <!-- navber starts here  -->
+    <nav id="menu" class="hidden">
+        <!-- upper nav starts here  -->
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="ragister.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img src="./images/profile.png" class="profile-icon" alt="profile photo">
+                </a>
+            </li>
+        </ul>  
+         <!-- upper nav ends here  --> 
+    </nav>
+    <!-- navber ends here  -->
+
+    <main>
+        <section class="contact-section">
+            <h2 class="section-title text-center">
+                Contact Us
+            </h2>
+
+            <div class="contact-container flex-center ">
+                <form action="" class="form card">
+                    <div class="from-control flex-center">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required autocomplete="name">
+                    </div>
+                    <div class="from-control flex-center">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required autocomplete="email">
+                    </div>
+                    <div class="from-control flex-center">
+                        <label for="Massage">Massage</label>
+                        <textarea name="Massage" id="Massage"></textarea>
+                    </div>
+                    <div class="from-control flex-center from-btn-fielt">
+                        <button type="submit" class="btn contact-btn">Submit</button>
+                    </div>
+                </form>
+                <div class="contact-address flex-space-around">
+                    <address>
+                        <h4>Addess:</h4>
+                        <p>kustia, sono tower 2 </p>
+                        <p>bangladesh</p>
+                        <br>
+                        <span>Call:</span>
+                        <a href="tel:+01738525225">+01738525225</a>
+                    </address>
+                    <iframe class="contact-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58364.567498006334!2d89.08625626859097!3d23.897224860178753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe965536b7d61f%3A0x28fea367efdb38c9!2sKushtia!5e0!3m2!1sen!2sbd!4v1677386834434!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer starts here  -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="email" name="subscribe" id="subscribe" class="footer-input" placeholder=" Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Rimon Express. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here  -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+====================================
+all class bootstrap5 class  starts here 
+====================================
+
+1. btn 
+2.container/container-fluid
+
+
+3.grid- row
+4.col-sm-value
+5.col-md-value
+6.col-lg-value
+7.col-xl-value
+8.col-xxl-value
+
+
+-color class ---> 
+i.primary(blue)
+ii.success(green)
+ii.info(light blue)
+iv.warning (orenge)   
+v.secondary (grey)
+vi.white
+vii.dark
+viii.light
+
+
+margin, padding--> 
+classes===
+ m
+ mt
+ ml
+ mr
+ mb
+ p
+ pl
+ pr
+ pt
+ pb
+
+
+border and image--->
+bordere
+raunded-right
+raunded-left
+raunded-top
+raunded-bottom
+rounded-circle
+img-fluid
+d-block
+m-auto
+
+
+Text and font---
+text-center
+text-md-left
+text-md-right
+text-md-top
+text-md-bottom
+
+text-sm-left
+text-sm-right
+text-sm-top
+text-sm-bottom
+
+text-lg-left
+text-lg-right
+text-lg-top
+text-lg-bottom
+
+text-uppercase
+text-lowercase
+
+text-weight-bold
+text-weight-bolder
+text-weight-light
+text-weight-lighter
+text-weight-normal
+
+font-italic
+smail
+
+text-muted
+text-capitalize
+text-decoration-none
+
+
+
+--------------------------------------------------------------
+Bootstrap5 Bangla Tutorial 9 : blockquote and abbreviations--->
+HTML tag--- blockquote ,
+blockquote
+blockquote-footer
+
+------------------------------------------------------------------
+Bootstrap5 Bangla Tutorial 10 : button, button group, list group---->
+btn 
+
+btn-outline
+
+btn-lg
+btn-sm
+
+btn-block
+
+
+
+
+
+
+
+
+
+====================================
+all class bootstrap5 class  ends here
+====================================

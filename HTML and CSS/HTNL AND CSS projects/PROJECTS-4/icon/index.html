@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to create linkable icon button</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        .social-media {
+            background-color: gray;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .btn {
+            border: none;
+            padding: 10px 20px;
+            font-size: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 3px 4px 0 white;
+
+        }
+        .btn:hover {
+            background-color: #2c3e50;
+            transition: 0.8s;
+        }
+        .youtube {
+            padding: 10px 17px;
+        }
+    </style>
+</head>
+<body>
+    <div class="social-media">
+        <button class="btn request-callback" onclick="window.open('https://www.facebook.com/')"><i style="color: #3b5998;" class="fa-brands fa-facebook-f"></i></button>
+
+        <button class="btn request-callback youtube" onclick="window.open('https://www.youtube.com/')"><i style="color: red;" class="fa-brands fa-youtube"></i></button>
+
+        <button class="btn request-callback" onclick="window.open('https://www.linkedin.com/')"><i style="color: #4b7bec;" class="fa-brands fa-linkedin"></i></button>
+        <button class="btn request-callback" onclick="window.open('https://www.instagram.com/')"><i style="color: #FC427B;" class="fa-brands fa-instagram"></i></button>
+        
+    </div>
+</body>
+</html>

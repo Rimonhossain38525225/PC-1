@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <h2>Rimon hossain</h2>
+
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+
+
+
+
+
+
+
+    <script>
+
+        // setTimeout(() => {
+        //     document.querySelector("h2").innerHTML += " is a good person"
+        // }, 2000);
+
+
+
+        //
+       const start = document.querySelector("#start")
+       const stop = document.querySelector("#stop")
+
+       let rId ;
+       let count = 1
+       start.addEventListener("click",function() {
+            if(!rId){
+                rId = setInterval(() => {
+                console.log("Rimon Hossain " + count++);
+                }, 1000);
+            }
+        })
+       stop.addEventListener("click",function() {
+        clearInterval(rId)
+            rId = null
+       })
+
+    </script>
+</body>
+</html>

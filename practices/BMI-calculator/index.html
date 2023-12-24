@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BMI Calculetor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="calculetor">
+        <form action="index.html">
+            <h2>BMI calcutor</h2>
+            <label for="height">Enter Your Height in CM:</label>
+            <input type="text" required id="height">
+            <br>
+            <label for="weight">Enter Your Weight IN KG:</label>
+            <input type="text" required id="weight">
+            <br>
+            <input type="submit" value="calculete" id="submit-btn">
+        </form>
+        <p class="error"></p>
+        <p class="bmi"> </p>
+        <p class="result"></p>
+        <p class="messsage">=>সাধারণত কোনো ব্যাক্তির BMI ১৮.৫ এর নিচে থাকলে তাকে আন্ডারওয়েইট বা রোগা বলা হয়।
+            ১৮.৫ থেকে ২৫ এর মধ্যে থাকলে তাকে স্বাভাবিক বলা হয়।<br><br>
+            =>২৫ থেকে ৩০ এর মধ্যে থাকলে তাকে ওভারওয়েইট বা মোটা বলা হয়।<br><br>
+            =>আর ৩০ এর উপরে থাকলে তাকে অতি স্থূলকায় বা অতিরিক্ত মোটা বলা হয়।</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

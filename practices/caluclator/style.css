@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    height: 100vh;
+    background-color: #baa5a5;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.calcurator {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    /* font-size: 0; */
+}
+.calcurator input {
+    width: 99%;
+    height: 100px;
+    letter-spacing: 3px;
+    text-align: right;
+    outline: none;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+}
+.buttons {
+    width: 100%;
+    /* margin-top: 2rem; */
+}
+
+.buttons .button {
+    width: 88px;
+    height: 82px;
+    margin: 4px;
+    font-size: 2rem;
+    background-color: rgb(3, 34, 138);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition: all .2s;
+}
+.buttons .button:hover {
+    background-color: chartreuse;
+}
+.buttons .color {
+    background-color: rgb(242, 174, 0);
+}
+.buttons .C {
+    background-color: rgb(12, 197, 6);
+}

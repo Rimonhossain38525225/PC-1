@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+
+/* desktop style  */
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+
+
+
+/* Navber design start */
+
+.nav-logo {
+    text-align: left;
+}
+
+.navber-heading h1 {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.navber-manu {
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: start;
+    margin-top: 6px;
+}
+
+.navber-manu a {
+    background-color: transparent;
+}
+
+/* Navber design end */
+
+
+/* profile design start  */
+
+
+
+/* profile design end  */
+
+
+
+
+/* about me section design start */
+
+.aboutme-image {
+    margin-top: 150px;
+}
+.aboutme-image img {
+    width: 300px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+
+/* about me section design end */
+
+ /* SKIIL start */
+
+
+ 
+  /* SKIIL END */
+
+/* achievement section start */
+
+.achivement {
+    padding-right: 33px;
+}
+.contact-link {
+    position: relative;
+
+}
+.media-buttons {
+    position: absolute;
+    margin-top: 140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ /* achievement section end */
+
+ /* footer start  */
+ .footer .footer-manu {
+    margin-top: 12px;  
+ }
+ .footer .footer-manu a {
+    display: inline;
+ }
+  /* footer end  */

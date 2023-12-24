@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container-fluid {
+    
+}
+/* navbar starts here  */
+#navbar {
+    background-color: #ECF2FF;
+    padding: 2% 4%;
+    height: 78px;
+    background-image: url("images/bannar.avif");
+}
+.nav-contents {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.nav-logo {
+    font-family: 'Handlee', cursive;
+}
+.nav-logo a {
+    text-decoration: none;
+    color: #08969b;
+}
+.nav-link-a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #daa804;
+    font-weight: bolder;
+}
+.nav-link-a:hover {
+    text-decoration: underline;
+    color: #39ff11;
+}
+.bars{
+    color: #fff;
+    display: none;
+}
+/* navbar ends here  */
+
+
+/* banner starts here  */
+#banner {
+    padding: 5% 4%;
+    height: auto;
+    background-color: #ffffff;
+    color: #2C3333;
+}
+#element {
+    font-size: 1.3rem;
+    color: #017269f8;
+    font-family: 'Handlee', cursive;
+}
+.title h2{
+    font-size: 1.5rem;
+    color: #161515;
+}
+.my-name{
+    font-size: 1.2rem;
+    color: #0f0f0f;
+}
+.title-pera {
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    color: #0c0b0b;
+}
+/* banner ends here  */
+
+/* about me section starts here  */
+#about-section{
+    /* background-color: #9336B4; */
+    padding: 2% 4%;
+}
+.hr-style {
+    border: 10px dotted #0d29ff;
+    border-bottom: none;
+    width: 200px;
+    height: 4px;
+    margin: 0 auto;
+}
+.titile-about {
+    font-family: 'Handlee', cursive;
+    color: #db0381;
+}
+/* about me section ends here  */
+@media (min-width:600px) {
+    #navbar{
+        flex-direction: row !important;
+    }
+        
+}
+@media (max-width:600px) {
+    *{
+        text-align: center;
+    }
+    .nav-link{
+        position: relative;
+        display: none;
+    }
+    .flex-sm-column{
+        flex-direction: column;
+    }
+    #navbar {
+        background-color: #ECF2FF;
+        padding: 2% 4%;
+        height: auto;
+        background-image: url("images/bannar.avif");
+    }
+    .bars{
+        color: #fff;
+        display: inline-block;
+        cursor: pointer;
+        padding: 5px;
+        
+    }
+    .bars:hover{
+        border: 1px solid #fff;
+        border-radius: 5px;
+
+    }
+}

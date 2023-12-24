@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ecommerce project">
+    <title>E-commarce Project</title>
+    <!-- fontawesome cdn starts here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome cdn ends here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <!-- navber starts here  -->
+    <nav id="menu" class="hidden">
+        <!-- upper nav starts here  -->
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="ragister.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img src="./images/profile.png" class="profile-icon" alt="profile photo">
+                </a>
+            </li>
+        </ul>  
+         <!-- upper nav ends here  -->
+    </nav>
+    <!-- navber ends here  -->
+
+
+    <main>
+        <section class="profile flex-center">
+            <h2 class="section-title text-center">User Profile</h2>
+            <div class="card flex-center">
+                <img src="./images/profile.png" alt="profile" class="profile-img">
+                <h2 class="profile-name">Rimon Hossain</h2>
+                <p class="profile-email">rimonhossen333@gmail.com</p>
+                <p class="profile-about">I like every honest man</p> 
+                <div class="profile-buttons">
+                    <button class="btn profile-edit-btn">
+                        <i class="far fa-edit fa-2x"></i>
+                    </button>
+                    <button class="btn profile-delete-btn">
+                        <i class="far fa-trash-alt fa-2x"></i>
+                    </button>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- footer starts here  -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="email" name="subscribe" id="subscribe" class="footer-input" placeholder=" Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Rimon Express. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here  -->
+    <script src="script.js"></script>
+</body>
+</html>

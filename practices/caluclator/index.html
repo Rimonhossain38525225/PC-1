@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculetor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Calculetor</h1>
+    <div class="calcurator">
+        <input type="text" id="inputEl">
+        <div class="buttons">
+            <button onclick="calculate('*')" type="button" class="button color">*</button>
+            <button onclick="calculate('/')" type="button" class="button color">/</button>
+            <button onclick="calculate('+')" type="button" class="button color">+</button>
+            <button onclick="calculate('-')" type="button" class="button color">-</button>
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('1')" type="button" class="button">1</button>
+            <button onclick="calculate('2')" type="button" class="button">2</button>
+            <button onclick="calculate('3')" type="button" class="button">3</button>
+            <button onclick="calculate('4')" type="button" class="button">4</button>
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('5')" type="button" class="button">5</button>
+            <button onclick="calculate('6')" type="button" class="button">6</button>
+            <button onclick="calculate('7')" type="button" class="button">7</button>
+            <button onclick="calculate('8')" type="button" class="button">8</button>
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('9')" type="button" class="button">9</button>
+            <button onclick="calculate('0')" type="button" class="button">0</button>
+            <button onclick="result()" type="button" class="button">=</button>
+            <button onclick="removeme()" type="button" class="button C">C</button>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

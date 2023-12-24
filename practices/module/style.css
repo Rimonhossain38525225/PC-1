@@ -1,0 +1,39 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(1, 1, 1);
+    color: #fff;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#brand img {
+    width: 57px;
+    padding: 0 10px;
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+}
+#brand span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 90px;
+}
+nav ul li {
+    padding: 0 17px;
+} */
